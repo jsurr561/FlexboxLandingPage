@@ -1,0 +1,54 @@
+/* HTML elements */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* index Sections */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlinks {
+    display: flex;
+}
+
+.intro {
+    background-color: navy;
+    color: white;
+    display: flex;
+}
+
+.random {
+    color: navy;
+}
+
+.quote {
+    background-color: lightgray;
+}
+
+.action {
+    background-color: blue;
+    color: white;
+}
+
+.footer {
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
