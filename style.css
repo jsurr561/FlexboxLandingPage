@@ -154,11 +154,25 @@ body {
 .quote {
     background-color: #e5e7eb;
     height: 200px;
-    padding: 0px 15vw;
+    padding: 50px 15vw;
+    /*
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote p {
+    font-size: 24px;
+    text-align: right;
+    padding: 0 50px;
 }
 
 /* ACTION */
