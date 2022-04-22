@@ -68,7 +68,7 @@ body {
     align-items: center;
     gap: 25px;
     padding: 75px 15vw;
-    height: 250px;
+    /*height: 250px;*/
 }
 
 .title {
@@ -114,7 +114,7 @@ body {
 .random {
     color: #1f2937;
     font-size: 24px;
-    height: 300px;
+    /*height: 300px;*/
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -128,6 +128,7 @@ body {
     width: 60vw;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0px;
 }
@@ -155,14 +156,13 @@ body {
 
 .quote {
     background-color: #e5e7eb;
-    height: 200px;
+    /*height: 200px;*/
     padding: 50px 15vw;
     /*
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-
 }
 
 .quote em {
