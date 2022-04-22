@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20vh;
+    padding: 10px 15vw;
     font-size: 18px;
 }
 
@@ -67,7 +67,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-    padding: 75px 20vh;
+    padding: 75px 15vw;
     height: 250px;
 }
 
@@ -113,17 +113,19 @@ body {
 
 .random {
     color: #1f2937;
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     align-items: center;
-    padding: 0 20vh;
+    justify-content: flex-start;
+    padding: 0 15vw;
 }
 
 .randomimages {
-    width: 80vw;
+    width: 60vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .randomphoto {
@@ -137,7 +139,7 @@ body {
 .quote {
     background-color: #e5e7eb;
     height: 200px;
-    padding: 0px 20vh;
+    padding: 0px 15vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +151,7 @@ body {
 .action {
     background-color: #3882f6;
     color: white;
-    margin: 100px 20vh;
+    margin: 100px 15vw;
     padding: 20px;
 }
 
@@ -159,7 +161,7 @@ body {
     font-size: 8px;
     background-color: #1f2937;
     color: white;
-    padding: 15px 20vh;
+    padding: 15px 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
