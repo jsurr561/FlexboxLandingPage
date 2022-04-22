@@ -128,6 +128,7 @@ body {
     width: 60vw;
     display: flex;
     justify-content: space-around;
+    gap: 25px;
     flex-wrap: wrap;
     text-align: center;
     margin: 0px;
@@ -158,11 +159,10 @@ body {
     background-color: #e5e7eb;
     /*height: 200px;*/
     padding: 50px 15vw;
-    /*
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .quote em {
@@ -172,8 +172,8 @@ body {
 }
 
 .quote p {
+    align-self: flex-end;
     font-size: 24px;
-    text-align: right;
     padding: 0 50px;
 }
 
