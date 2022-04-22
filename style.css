@@ -34,6 +34,8 @@ body {
     margin: 0px;
 }
 
+/* HEADER */
+
 .leftheader {
     color: #f9faf8
     font-size: 24px;
@@ -41,7 +43,7 @@ body {
 }
 
 .header {
-    background-color: rgb(31, 41, 55);
+    background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -55,34 +57,59 @@ body {
     justify-content: space-between;
 }
 
+/* INTRO */
+
 .intro {
-    background-color: rgb(31, 41, 55);
+    background-color: #1f2937;
     color: white;
     display: flex;
     flex: auto;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
-    padding: 0 20vh;
+    padding: 75px 20vh;
     height: 250px;
 }
 
+.title {
+    width: 450px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .introimage {
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 225px;
     background-color: #6d747d;
-    text-align: center;
     flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0px;
+    color: #f9faf8;
 }
 
 .intro p {
     font-size: 18px;
+    margin-top: 0px;
 }
+
+.signup {
+    background-color: #3882f6;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+/* RANDOM */
 
 .random {
     color: #1f2937;
@@ -92,8 +119,10 @@ body {
     padding: 0 20vh;
 }
 
+/* QUOTE */
+
 .quote {
-    background-color: #e5e7ea;
+    background-color: #e5e7eb;
     height: 200px;
     padding: 0px 20vh;
     display: flex;
@@ -102,6 +131,8 @@ body {
     align-items: center;
 }
 
+/* ACTION */
+
 .action {
     background-color: #3882f6;
     color: white;
@@ -109,9 +140,11 @@ body {
     padding: 20px;
 }
 
+/* FOOTER */
+
 .footer {
     font-size: 8px;
-    background-color: rgb(31, 41, 55);
+    background-color: #1f2937;
     color: white;
     padding: 15px 20vh;
     display: flex;
