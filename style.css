@@ -3,6 +3,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(166, 166, 166);
+}
+
 ul {
     list-style-type: none;
     padding: 0px;
@@ -31,7 +35,8 @@ body {
 }
 
 .leftheader {
-    font-size: 12px;
+    color: #f9faf8
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -42,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .headerlinks {
